@@ -16,10 +16,10 @@ body {
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
-  font-size: 40px;
+  padding: 20px;
+  font-size: 30px;
   text-align: center;
-  background: white;
+  background: #B0C4DE;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -45,10 +45,17 @@ body {
 
 /* Add a card effect for articles */
 .card {
-   background-color: white;
+   background-color: #F5F5F5;
    padding: 20px;
    margin-top: 20px;
 }
+
+/* VG: Adding css for background color*/
+.bg {
+	background-color: blue;
+}
+
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -59,8 +66,8 @@ body {
 
 /* Footer */
 .footer {
-  padding: 20px;
-  text-align: center;
+  padding: 10px;
+  text-align: left;
   background: #ddd;
   margin-top: 20px;
 }
@@ -77,49 +84,81 @@ body {
 <body>
 
 <div class="header">
-  <h2>Blog Name</h2>
+  <img align="left" src="./assets/img/images.jfif" alt="alternatetext" width="100" height="100">
+  <h3 align="left" style="margin-left:150px">Vaibhav Gupta</h3>
 </div>
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+	  <!--<img src="./assets/img/medium.png" alt="Image Not Found" width="50" height="50"> -->
+      <h2>Work Experience</h2>
+      <p></p>
+      <ul>
+		<li>Worked on both manual and automation testing and mentoring QA associates within team</li>
+		<li>Exposure of Test Automation using Selenium with JAVA, TestNG and Maven.</li>
+		<li>Experience in requirement analysis, test planning, test cases creation, test execution and reporting issues.</li>
+		<li>Experience in handling end to end testing activities.</li>
+		<li>Having good knowledge of SDLC and STLC phases. </li>
+		<li>Prepared calculations sheets in excel and preparing RTM documents.</li>
+		<li>Hands on ETL testing and backend data verification on web and MSTR reporting applications.</li>
+		<li>Worked in both Agile (Scrum) and Waterfall model projects.</li>
+		<li>Developed excel workbooks for calculations verification and debugging code with Developers.</li>
+		<li>Having Domain knowledge in pharmaceutical industry.</li>
+		<li>Exposure of AWS Web Services.</li>
+		</ul>
     </div>
     <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <h2>Technical Stacks</h2>
+	  <h4>Testing Tools</h4><p>Selenium Web Driver, TestNG</p>
+	  <h4>Languages</h4>
+	  <p>JAVA</p>
+	  <h4>Databases</h4>
+	  <p>MYSQL, Amazon Aurora, SQL</p>
+	  <h4>Version Control</h4>
+	  <p>Git, Github</p>
+	  <h4>Cloud Technologies</h4>
+	  <p>AWS Web Services</p>
+	  <h4>CI/CD Tools</h4>
+	  <p>Jenkins</p>
     </div>
   </div>
   <div class="rightcolumn">
     <div class="card">
       <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <p>Hello! My Name is Vaibhav. Test Engineer having experience 2+ years of experience in Manual Testing and Automation testing. <br><br> Experienced in Functional Testing, Database Testing, Performance Testing, Regression Testing, Data Analysis, Data validation and ETL Testing. </p>
     </div>
     <div class="card">
       <h3>Popular Post</h3>
+	  
+	  <!-- VG: Commenting this part
       <div class="fakeimg">Image</div><br>
       <img src="./assets/img/images.jfif" alt="alternatetext">
       <div class="fakeimg">Image</div><br>
       <div class="fakeimg">Image</div>
-      <div><a href="https://vaibi.medium.com/excel-shortcuts-that-can-save-you-much-time-at-work-92e8a92cfc2f">Excel Blog</a></div>  
+	  -->
+	  
+      <div><a href="https://vaibi.medium.com/excel-shortcuts-that-can-save-you-much-time-at-work-92e8a92cfc2f">Microsoft Excel Shortcuts</a></div>  
+	  <br>
+	  <div><a href="https://vaibi.medium.com/advantages-of-moving-to-cloud-1a1751f13119">Advantage of Moving to Cloud Technology</a></div>
+	  <br>
+	  <div><a href="https://vaibi.medium.com/">More</a></div>	  
     </div>
     <div class="card">
       <h3>Follow Me</h3>
-      <p>Some text..</p>
-    </div>
+	  <a title="Medium.com" href="https://vaibi.medium.com/"><img src="./assets/img/medium.png" alt="Image Not Found" width="50" height="50"></a>
+	  &#8287;
+	  &#8287;
+	  <a title="LinkedIn.com" href="https://www.linkedin.com/in/vaibhav-gupta-2a3a9514a/"><img src="./assets/img/linkedIn.png" alt="Image Not Found" width="50" height="50"></a>
+	</div>
   </div>
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <h4>Contact Details</h4>	
+  <p> <b>Email: </b> vaibhavgupta5433@gmail.com</p>
+  <p> <b>Phone: </b> +91 XXXXXXXXXX</p>
+  <p> <b>Address: </b> Delhi, India</p>
 </div>
 
 </body>
